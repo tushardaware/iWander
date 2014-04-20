@@ -17,6 +17,10 @@
             android:name="com.iwander.iwander.MainActivity"
             android:label="@string/title_activity_main" >
         </activity>
+        <activity
+            android:name="com.iwander.iwander.Alert"
+            android:label="@string/title_activity_alert" >
+        </activity>
     </application>
 
 </manifest>
