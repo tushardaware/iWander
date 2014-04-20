@@ -109,24 +109,6 @@ GooglePlayServicesClient.OnConnectionFailedListener, LocationListener
 			
 		});
         
-        
-      /* getDistance.setOnClickListener(new OnClickListener() {
-			
-			@Override
-			public void onClick(View arg0) {
-			
-				//Intent intent = new Intent(context , GetDistance.class);
-				//startActivity(intent);
-			}
-		});
-		
-		
-        */
-        
-        
-        
-       //
-        
 
             }
 
@@ -144,13 +126,6 @@ GooglePlayServicesClient.OnConnectionFailedListener, LocationListener
   	 	
 		   Location currentLocation = mLocationClient.getLastLocation();
 			
-		  /* latitude = currentLocation.getLatitude();
-		   longitude = currentLocation.getLatitude();
-		   
-		   Toast.makeText(this, Double.toString(latitude)+" "+Double.toString(longitude), Toast.LENGTH_LONG).show();
-		   
-		  */ 
-		   
 	 }
 	 
 	   else
